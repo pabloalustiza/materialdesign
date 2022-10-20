@@ -1,15 +1,9 @@
 {
   "User": {
-      "user-img": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+      "user-img": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270" },
   
       "nombre": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
       
-      "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
-
-
-      "dispositivos": [
-        "Thor",
-        "Loki"
-      ]
+      "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"}
   }
 }
