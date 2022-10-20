@@ -11,7 +11,7 @@
   
       "serialNumber": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
     
-    "likes": { "int": { "min": 0, "max": 1000000 } }
+    "likes": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" }{ "int": { "min": 0, "max": 1000000 } }
    
   }
   
