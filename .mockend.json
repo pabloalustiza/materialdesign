@@ -4,7 +4,7 @@
     "formed" : { "string": {} },
     "secretBase" : { "string": {} },
     "active" : { "string": {} },
-    "members" : [
+    "Member" : [
       {
         "name" : { "string": {} },
         "age" : { "string": {} },
