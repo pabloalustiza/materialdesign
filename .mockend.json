@@ -1,7 +1,7 @@
 {
   "User": {
     "nombre": {
-    "loremWords": { "minLength": 5, "maxLength": 20 }
+    "loremWords": { "minLength": 5, "maxLength": 20 },"regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
   },
     "user-img": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
