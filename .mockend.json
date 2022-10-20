@@ -12,10 +12,7 @@
   },
   "Dispositivo": {
     "serialNumber": {
-      "regexp": "{
-          "min": 0,
-          "max": 14
-        }\\.[a-z]{2,3}"
+      "regexp": "[a-z]{5,10}"
     },
     "createdAt": {
       "dateTime": {
