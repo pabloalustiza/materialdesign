@@ -1,6 +1,6 @@
 {
   "User": {
-      "user-img": { "color": { "regexp": "#[0-9A-F]{6}" } },
+      "user-img": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
   
       "nombre": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
       
