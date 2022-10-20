@@ -13,7 +13,7 @@
   "Dispositivo": {
     "serialnumber": {
         "int": {
-          "min": 0,
+          "min": 100,
           "max": 999
         }
       },
