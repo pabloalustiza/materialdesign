@@ -9,16 +9,6 @@
   },
   "Dispositivo": {
   
-      "temperatura": { 
-            "int": {
-                "min": 0,
-                "max": 40
-            } 
-        },
-        "ph": { 
-            "int": {
-                "min": 0,
-                "max": 14
-            } 
-        }  
+      "serialNumber": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+   }  
 }
