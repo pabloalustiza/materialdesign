@@ -1,8 +1,6 @@
 {
   "User": {
-    "nombre": {
-      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
+    "nombre": { "regexp": "[A-Z][a-z]{5,10}" },
     "user-img": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
