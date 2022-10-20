@@ -1,24 +1,40 @@
 {
   "User": {
-  
-      "nombre": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
-    
-    "user-img": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270" },
-      
-      "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"}
+    "nombre": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "user-img": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "email": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    }
   },
   "Dispositivo": {
-  
-      "serialNumber": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
-    
+    "serialNumber": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
     "createdAt": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
         "max": "2020-12-31T23:59:59Z"
       }
+    },
+    {
+      "ph": {
+        "int": {
+          "min": 0,
+          "max": 14
+        }
+      }
+    },
+    {
+      "temperatura": {
+        "int": {
+          "min": 0,
+          "max": 45
+        }
+      }
     }
-    
-   
   }
-  
 }
