@@ -11,9 +11,12 @@
     }
   },
   "Dispositivo": {
-    "serialNumber": {
-      "regexp": "[a-z]{5,10}"
-    },
+    "serialnumber": {
+        "int": {
+          "min": 0,
+          "max": 999
+        }
+      },
     "createdAt": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
