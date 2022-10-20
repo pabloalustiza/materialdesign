@@ -1,18 +1,28 @@
 {
   "User": {
-    "fecha-inicio": { "string": {} }
-    "title": { "string": {} }
-    "temperatura": { 
-      "int": {
-        "min": 0,
-        "max": 40
-      } 
-    }
-    "ph": { 
-    "int": {
-        "min": 0,
-        "max": 14
-      } 
-    }
+      "user-img": {
+           "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+      },
+      "createdAt": {
+          "dateTime": {
+            "min": "2010-01-01T00:00:00Z",
+            "max": "2020-12-31T23:59:59Z"
+          }
+      },    
+      "nombre": { 
+          "string": {} 
+      },
+      "temperatura": { 
+          "int": {
+              "min": 0,
+              "max": 40
+          } 
+      },
+      "ph": { 
+          "int": {
+              "min": 0,
+              "max": 14
+          } 
+      }
   }
 }
