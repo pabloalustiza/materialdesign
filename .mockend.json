@@ -9,11 +9,16 @@
   },
   "Dispositivo": {
   
-      "serialNumber": { "likes": { "int": { "min": 0, "max": 1000000 } } },
-    
-    "user-img": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270" },
-      
-      "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"}
-  }
-  
+      "temperatura": { 
+            "int": {
+                "min": 0,
+                "max": 40
+            } 
+        },
+        "ph": { 
+            "int": {
+                "min": 0,
+                "max": 14
+            } 
+        }  
 }
