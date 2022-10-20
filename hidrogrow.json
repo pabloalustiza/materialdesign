@@ -1,41 +1,37 @@
 {
-  "squadName" : "Super Hero Squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
-  "active" : true,
-  "members" : [
-    {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
-      "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
-      ]
+  "User": { 
+    "nombre": { "regexp": "[A-Z][a-z]{5,10}" },
+    "user-img": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
-    {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
-      "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
-      ]
+    "email": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     }
-  ]
+  },
+  "Dispositivo": {
+    "serialnumber": {
+        "int": {
+          "min": 1000,
+          "max": 9999
+        }
+      },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    },
+    "ph": {
+        "int": {
+          "min": 0,
+          "max": 14
+        }
+      },
+    "temperatura": {
+        "int": {
+          "min": 0,
+          "max": 45
+        }
+      }
+  }
 }
