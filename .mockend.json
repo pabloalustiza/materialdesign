@@ -1,6 +1,8 @@
 {
   "User": {
-    "nombre": { "regexp": "[A-Z][a-z]{5,10}" },
+    "nombre": {
+    "loremWords": { "minLength": 5, "maxLength": 20 }
+  },
     "user-img": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
