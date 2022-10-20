@@ -9,8 +9,9 @@
   },
   "Dispositivo": {
   
-      "nombre": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" }
+      "serialNumber": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
     
+    "likes": { "int": { "min": 0, "max": 1000000 } }
    
   }
   
