@@ -1,16 +1,23 @@
 {
-  "User": { 
-    "nombre": { "regexp": "[A-Z][a-z]{5,10}" },
-    "password": { "regexp": "[a-z]{5,10}[a-z]{5}" },
-    "userImg": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/600"
+  "User": {
+    "nombre": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     },
-@@ -16,6 +15,7 @@
+    "user-img": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "email": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    }
+  },
+  "Dispositivo": {
+    "serialnumber": {
+        "int": {
+          "min": 1000,
           "max": 9999
         }
       },
-    "password": { "regexp": "[a-z]{5,10}[a-z]{5}" },
-    "fechaInicio": {
+    "createdAt": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
         "max": "2020-12-31T23:59:59Z"
