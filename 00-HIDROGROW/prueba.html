@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>HIDROGROW</h1>
+       
+        <section v-for="dispositivo in dispositivos">      
+            <article>
+                <h2>{{dispositivo.name}} </h2>
+                
+            </article>
+        
+        </section>
+
+        <!--<p>{{info}}</p>-->
+
+
+    </div>
+    <script src="js/usuarios.js"></script>
+</body>
+
+</html>
